@@ -1,0 +1,87 @@
+0000.002 (0) Opened log file at time: Wed, 30 Oct 2013 20:39:15 +0000
+0000.004 (0) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.7.35 WP: 3.7.1 PHP: 5.3.27 (Linux francis-lewis 2.6.32.45-grsec-2.2.2-r3 #8 SMP Mon Oct 10 13:33:17 PDT 2011 x86_64) MySQL: 5.1.56-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 31.8M | 32M) multisite: N mcrypt: Y ZipArchive::addFile: Y W3TC/ObjectCache: N
+0000.006 (0) Free space on disk containing Updraft's temporary directory: 589757.4 Mb
+0000.010 (0) Tasks: Backup files: 0 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.018 (0) Requesting semaphore lock (d)
+0000.021 (0) Set semaphore last lock (d) time to 2013-10-30 20:39:15
+0000.023 (0) Semaphore lock (d) complete
+0000.029 (0) Backup run: resumption=0, nonce=7df81c26df18, begun at=1383165555 (0s ago), job type=backup
+0000.031 (0) Scheduling a resumption (1) after 300 seconds (1383165855) in case this run gets aborted
+0000.053 (0) Checking if we have a zip executable available
+0000.055 (0) Testing: /usr/bin/zip
+0000.074 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.076 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.077 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.079 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=127) (out=105) (deflated 17%)
+0000.080 (0) Output: total bytes=127, compressed=105 -> 17% savings
+0000.098 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=134) (out=109) (deflated 19%)
+0000.101 (0) Output: total bytes=261, compressed=214 -> 18% savings
+0000.128 (0) Working binary zip found: /usr/bin/zip
+0000.130 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.132 (0) This backup run is not intended for files - skipping
+0000.134 (0) Beginning creation of database dump
+0000.137 (0) Testing: /usr/bin/mysqldump
+0000.191 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0000.262 (0) Table wp_ricpsi_options: Total expected rows (approximate): 165
+0000.346 (0) Table wp_ricpsi_options: Total rows added: 164 in 0.08 seconds
+0000.350 (0) Table wp_ricpsi_options: finishing file (backup_2013-10-30-2039_CC_Toolkits_7df81c26df18-db-table-wp_ricpsi_options.table.gz)
+0000.357 (0) Table wp_ricpsi_users: Total expected rows (approximate): 5
+0000.363 (0) Table wp_ricpsi_users: Total rows added: 5 in 0.00 seconds
+0000.364 (0) Table wp_ricpsi_users: finishing file (backup_2013-10-30-2039_CC_Toolkits_7df81c26df18-db-table-wp_ricpsi_users.table.gz)
+0000.370 (0) Table wp_ricpsi_usermeta: Total expected rows (approximate): 80
+0000.379 (0) Table wp_ricpsi_usermeta: Total rows added: 80 in 0.01 seconds
+0000.383 (0) Table wp_ricpsi_usermeta: finishing file (backup_2013-10-30-2039_CC_Toolkits_7df81c26df18-db-table-wp_ricpsi_usermeta.table.gz)
+0000.388 (0) Table wp_ricpsi_commentmeta: Total expected rows (approximate): 0
+0000.392 (0) Table wp_ricpsi_commentmeta: Total rows added: 0 in 0.00 seconds
+0000.393 (0) Table wp_ricpsi_commentmeta: finishing file (backup_2013-10-30-2039_CC_Toolkits_7df81c26df18-db-table-wp_ricpsi_commentmeta.table.gz)
+0000.398 (0) Table wp_ricpsi_comments: Total expected rows (approximate): 1
+0000.403 (0) Table wp_ricpsi_comments: Total rows added: 1 in 0.00 seconds
+0000.405 (0) Table wp_ricpsi_comments: finishing file (backup_2013-10-30-2039_CC_Toolkits_7df81c26df18-db-table-wp_ricpsi_comments.table.gz)
+0000.410 (0) Table wp_ricpsi_links: Total expected rows (approximate): 0
+0000.414 (0) Table wp_ricpsi_links: Total rows added: 0 in 0.00 seconds
+0000.415 (0) Table wp_ricpsi_links: finishing file (backup_2013-10-30-2039_CC_Toolkits_7df81c26df18-db-table-wp_ricpsi_links.table.gz)
+0000.420 (0) Table wp_ricpsi_postmeta: Total expected rows (approximate): 538
+0000.458 (0) Table wp_ricpsi_postmeta: Total rows added: 538 in 0.04 seconds
+0000.460 (0) Table wp_ricpsi_postmeta: finishing file (backup_2013-10-30-2039_CC_Toolkits_7df81c26df18-db-table-wp_ricpsi_postmeta.table.gz)
+0000.465 (0) Table wp_ricpsi_posts: Total expected rows (approximate): 149
+0000.587 (0) Table wp_ricpsi_posts: Total rows added: 149 in 0.12 seconds
+0000.590 (0) Table wp_ricpsi_posts: finishing file (backup_2013-10-30-2039_CC_Toolkits_7df81c26df18-db-table-wp_ricpsi_posts.table.gz)
+0000.595 (0) Table wp_ricpsi_term_relationships: Total expected rows (approximate): 35
+0000.600 (0) Table wp_ricpsi_term_relationships: Total rows added: 35 in 0.00 seconds
+0000.602 (0) Table wp_ricpsi_term_relationships: finishing file (backup_2013-10-30-2039_CC_Toolkits_7df81c26df18-db-table-wp_ricpsi_term_relationships.table.gz)
+0000.607 (0) Table wp_ricpsi_term_taxonomy: Total expected rows (approximate): 3
+0000.612 (0) Table wp_ricpsi_term_taxonomy: Total rows added: 3 in 0.00 seconds
+0000.614 (0) Table wp_ricpsi_term_taxonomy: finishing file (backup_2013-10-30-2039_CC_Toolkits_7df81c26df18-db-table-wp_ricpsi_term_taxonomy.table.gz)
+0000.619 (0) Table wp_ricpsi_terms: Total expected rows (approximate): 3
+0000.623 (0) Table wp_ricpsi_terms: Total rows added: 3 in 0.00 seconds
+0000.625 (0) Table wp_ricpsi_terms: finishing file (backup_2013-10-30-2039_CC_Toolkits_7df81c26df18-db-table-wp_ricpsi_terms.table.gz)
+0000.629 (0) backup_2013-10-30-2039_CC_Toolkits_7df81c26df18-db-table-wp_ricpsi_options.table.gz: adding to final database dump
+0000.694 (0) backup_2013-10-30-2039_CC_Toolkits_7df81c26df18-db-table-wp_ricpsi_users.table.gz: adding to final database dump
+0000.696 (0) backup_2013-10-30-2039_CC_Toolkits_7df81c26df18-db-table-wp_ricpsi_usermeta.table.gz: adding to final database dump
+0000.700 (0) backup_2013-10-30-2039_CC_Toolkits_7df81c26df18-db-table-wp_ricpsi_commentmeta.table.gz: adding to final database dump
+0000.703 (0) backup_2013-10-30-2039_CC_Toolkits_7df81c26df18-db-table-wp_ricpsi_comments.table.gz: adding to final database dump
+0000.705 (0) backup_2013-10-30-2039_CC_Toolkits_7df81c26df18-db-table-wp_ricpsi_links.table.gz: adding to final database dump
+0000.708 (0) backup_2013-10-30-2039_CC_Toolkits_7df81c26df18-db-table-wp_ricpsi_postmeta.table.gz: adding to final database dump
+0000.720 (0) backup_2013-10-30-2039_CC_Toolkits_7df81c26df18-db-table-wp_ricpsi_posts.table.gz: adding to final database dump
+0000.774 (0) backup_2013-10-30-2039_CC_Toolkits_7df81c26df18-db-table-wp_ricpsi_term_relationships.table.gz: adding to final database dump
+0000.777 (0) backup_2013-10-30-2039_CC_Toolkits_7df81c26df18-db-table-wp_ricpsi_term_taxonomy.table.gz: adding to final database dump
+0000.780 (0) backup_2013-10-30-2039_CC_Toolkits_7df81c26df18-db-table-wp_ricpsi_terms.table.gz: adding to final database dump
+0000.782 (0) backup_2013-10-30-2039_CC_Toolkits_7df81c26df18-db.gz: finished writing out complete database file (0 Kb)
+0000.791 (0) Total database tables backed up: 11 (backup_2013-10-30-2039_CC_Toolkits_7df81c26df18-db.gz: checksum (SHA1): 113e0e7ffdd74ae41f391622736049985330a091)
+0000.794 (0) Saving backup history
+0000.800 (0) backup_2013-10-30-2039_CC_Toolkits_7df81c26df18-db.gz: db: This file has not yet been successfully uploaded: will queue
+0000.805 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0000.808 (0) Cloud backup selection: 
+0000.809 (0) No remote despatch: user chose no remote backup service
+0000.813 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0000.815 (0) Number of backup sets in history: 1
+0000.817 (0) Examining backup set with datestamp: 1383165555 (Oct 30 2013 20:39:15)
+0000.818 (0) 1383165555: db: this set includes a database (backup_2013-10-30-2039_CC_Toolkits_7df81c26df18-db.gz); db count is now 1
+0000.821 (0) 1383165555: this backup set remains non-empty (0/1); will retain in history
+0000.822 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0000.824 (0) Resume backup (7df81c26df18, 0): finish run
+0000.827 (0) Decremented the semaphore (d) by 1
+0000.828 (0) Semaphore (d) unlocked
+0000.829 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0000.834 (0) No email will/can be sent - the user has not configured an email address.
+0000.835 (0) The backup apparently succeeded and is now complete
