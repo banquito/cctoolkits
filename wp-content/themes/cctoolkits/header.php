@@ -26,15 +26,17 @@
 
 <div id="page-content">
   <div id="header" class="container_12">
+    <ul class="flags">
+      <?php pll_the_languages(array('show_flags'=>1,'show_names'=>1));?>
+    </ul>
     <div id="logo" class="grid_5"> <a href="<?php echo home_url( '/' ); ?>"> <img src="<?php bloginfo('stylesheet_directory'); ?>/images/toolkits_logo-03_beta.png"/></a> </div>
     <div id="menu" class="grid_7">
+      <nav id="site-navigation" class="main-navigation" role="navigation">
+        <h1 class="menu-toggle"><?php _e( 'Menu', 'cctoolkits' ); ?></h1>
+        <div class="skip-link"><a class="screen-reader-text" href="#content"><?php _e( 'Skip to content', 'cctoolkits' ); ?></a></div>
 
-    <nav id="site-navigation" class="main-navigation" role="navigation">
-      <h1 class="menu-toggle"><?php _e( 'Menu', 'cctoolkits' ); ?></h1>
-      <div class="skip-link"><a class="screen-reader-text" href="#content"><?php _e( 'Skip to content', 'cctoolkits' ); ?></a></div>
-
-      <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
-    </nav><!-- #site-navigation -->  
+        <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+      </nav><!-- #site-navigation -->  
 
     </div>
   </div>

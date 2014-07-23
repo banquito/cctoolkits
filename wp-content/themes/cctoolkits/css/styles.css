@@ -334,8 +334,8 @@ button:hover {
 #home-mapinfo {
 	width:100%;
 	padding:30px 0px;
-	background:#b44a95 url(../images/world-01.png)no-repeat center center;
-	height:280px;
+	background:#b44a95 url(../images/world-01.png)no-repeat top center;
+	/*height:280px;*/
 	position:relative;
 }
 
@@ -913,4 +913,26 @@ list-style-position: inside;
 .single-event figure {
   float: left;
   margin-right: 10px;
+}
+
+#header {
+  position: relative;
+}
+
+.flags {
+  list-style: none;
+  margin: 0;
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+.flags li {
+  float: left;
+  margin-left: 10px;
+}
+.flags li a {
+  text-decoration: none;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #666;
 }

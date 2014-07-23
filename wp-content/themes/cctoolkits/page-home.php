@@ -62,8 +62,7 @@ get_header(); ?>
      <br>
       <p>Share your own project on the map! <strong>(coming soon)</strong></p>
       <div class="home-maps-botonera">
-        <button onclick="location.href='http://cctoolkits.com/project-map/'">View Map</button>
-        <button class="hide">Share Yours</button>
+        <iframe width='100%' height='520' frameborder='0' src='http://ginocingolani.cartodb.com/viz/f8ac60da-d1b8-11e3-8e28-0e73339ffa50/embed_map?title=true&description=true&search=false&shareable=true&cartodb_logo=true&layer_selector=false&legends=true&scrollwheel=true&fullscreen=true&sublayer_options=1&sql=&zoom=2&center_lat=-24.44714958973082&center_lon=-21.09375' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
       </div>
     </div>
   </div>

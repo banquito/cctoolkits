@@ -13,6 +13,8 @@
 
 get_header(); ?>
 
+
+
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main container_16" role="main">
 
@@ -31,7 +33,7 @@ get_header(); ?>
 
 			<?php endwhile; ?>
 
-			<?php //cctoolkits_content_nav( 'nav-below' ); ?>
+			<?php cctoolkits_content_nav( 'nav-below' ); ?>
 
 		<?php else : ?>
 
@@ -41,6 +43,5 @@ get_header(); ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
-
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
