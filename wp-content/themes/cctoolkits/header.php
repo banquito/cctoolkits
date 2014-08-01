@@ -27,7 +27,7 @@
 <div id="page-content">
   <div id="header" class="container_12">
     <ul class="flags">
-      <?php pll_the_languages(array('show_flags'=>1,'show_names'=>1));?>
+      <?php pll_the_languages(array('dropdown'=>1,'show_flags'=>1,'show_names'=>1));?>
     </ul>
     <div id="logo" class="grid_5"> <a href="<?php echo home_url( '/' ); ?>"> <img src="<?php bloginfo('stylesheet_directory'); ?>/images/toolkits_logo-03_beta.png"/></a> </div>
     <div id="menu" class="grid_7">
